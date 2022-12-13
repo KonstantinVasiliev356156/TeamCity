@@ -4,7 +4,7 @@ def calculate(operation):
     b = int(operation[2])
     operator = operation[1]
     answer = "wrong input";
-    if(operator == '+'):
+    if (operator == '+'):
         answer = a + b
     elif (operator == '-'):
         answer = a - b
@@ -12,5 +12,9 @@ def calculate(operation):
         answer = a * b
     elif (operator == '/'):
         answer = a / b
-    return int(answer)
+    return answer
 
+
+if __name__ == "__main__":
+    operation = input()
+    print(calculate(operation))
