@@ -15,5 +15,5 @@ def calculate(operation):
     return answer
 
 
-operation = input(Enter operation: )
+operation = input("Enter operation: ")
 print(calculate(operation))
