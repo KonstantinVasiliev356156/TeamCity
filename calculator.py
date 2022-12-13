@@ -15,6 +15,5 @@ def calculate(operation):
     return answer
 
 
-if __name__ == "__main__":
-    operation = input()
-    print(calculate(operation))
+operation = input(Введите операцию через пробел: )
+print(calculate(operation))
