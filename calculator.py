@@ -15,5 +15,6 @@ def calculate(operation):
     return answer
 
 
-operation = input()
-print(calculate(operation))
+if __name__ = "__main__":
+    operation = input()
+    print(calculate(operation))
