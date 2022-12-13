@@ -15,5 +15,5 @@ def calculate(operation):
     return answer
 
 
-operation = input(Введите операцию через пробел: )
+operation = input(Enter operation: )
 print(calculate(operation))
