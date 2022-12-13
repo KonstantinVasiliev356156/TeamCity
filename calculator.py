@@ -12,5 +12,5 @@ def calculate(operation):
         answer = a * b
     elif (operator == '/'):
         answer = a / b
-    return int(answer)
+    return answer
 
